@@ -1,0 +1,15 @@
+.carousel-item{
+    height: 30em;
+}
+
+.carousel-bg {
+    position: absolute;
+    object-fit:cover;
+    object-position: 50% 50%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 572px;
+    background:rgba(0,0,0,0.3);
+    opacity: 0.3;
+}  
