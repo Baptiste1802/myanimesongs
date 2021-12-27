@@ -14,3 +14,9 @@ def home():
         title="My Anime Songs",
         animes = get_animes()
     )
+
+@app.route("/test")
+def test():
+    return render_template(
+        "test.html"
+    )
